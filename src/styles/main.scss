@@ -1,0 +1,20 @@
+.root {
+  position: absolute;
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+.side, .main {
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+.side {
+  width: 25%;
+  background-color: grey;
+}
+
+.main {
+  width: 100%;
+}
