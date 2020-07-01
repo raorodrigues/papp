@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import { CircularProgress, createMuiTheme } from '@material-ui/core';
 import { ThemeProvider } from '@material-ui/styles';
 import { COLORS, MENU } from "./constants";
-import Menu from './components/Menu/index';
+import { Menu } from './components';
 import "./styles/main.scss";
 
 const Home = lazy(() => import('./pages/Home'));
